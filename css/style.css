@@ -13,10 +13,13 @@ header {
   font-weight: bold;
   font-size: xx-large;
   color: azure;
+  top: 0px;
+  position: fixed;
+  margin: none;
 }
 .first-card {
   background-image: url(../media/background-first.png);
-  height: 400px;
+  height: 405px;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -25,28 +28,33 @@ header {
   background-attachment: fixed;
   background-position: +0px -250px;
   background-repeat: no-repeat;
+  
 }
 .first-client-foto {
   background-image: url("../media/client-first.png");
   height: 300px;
   width: 400px;
   background-size: cover;
-  position: absolute;
+  position: relative;
   z-index: 3;
 }
 p {
   text-align: right;
   color: azure;
   margin-right: 10px;
+  margin-top: 0px;
+  justify-content: center;
+  align-items: center;
 }
 .second-card {
   background-image: url("../media/background-second.jpg");
-  height: 400px;
+  height: 405px;
   background-position: center;
   position: relative;
   z-index: 4;
   background-attachment: fixed;
   background-repeat: no-repeat;
+ 
 }
 .second-client-foto {
   background-image: url("../media/client-second.png");
@@ -55,17 +63,21 @@ p {
   background-size: cover;
   background-position: center;
   z-index: 5;
-  position: absolute;
+  position: relative;
+  left: 475px;
 }
 .third-card {
   background-image: url("../media/background-third.jpg");
-  height: 400px;
+  height: 405px;
   background-size: cover;
   background-position: center;
   position: relative;
   z-index: 6;
   background-attachment: fixed;
   background-repeat: no-repeat;
+ 
+ 
+  
 }
 .third-client-foto {
   background-image: url("../media/client-third.png");
@@ -74,6 +86,7 @@ p {
   background-size: cover;
   background-position: center;
   z-index: 7;
-  position: absolute;
+  position: relative;
+  left: 950px;
 }
 
