@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+}
+header {
+  background-color: coral;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  z-index: 14;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: xx-large;
+  color: azure;
+}
+.first-card {
+  background-image: url(../media/background-first.png);
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  top: 60px;
+  z-index: 2;
+  background-attachment: fixed;
+  background-position: +0px -250px;
+  background-repeat: no-repeat;
+}
+.first-client-foto {
+  background-image: url("../media/client-first.png");
+  height: 300px;
+  width: 400px;
+  background-size: cover;
+  position: absolute;
+  z-index: 3;
+}
+p {
+  text-align: right;
+  color: azure;
+  margin-right: 10px;
+}
+.second-card {
+  background-image: url("../media/background-second.jpg");
+  height: 400px;
+  background-position: center;
+  position: relative;
+  z-index: 4;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.second-client-foto {
+  background-image: url("../media/client-second.png");
+  height: 300px;
+  width: 400px;
+  background-size: cover;
+  background-position: center;
+  z-index: 5;
+  position: absolute;
+}
+.third-card {
+  background-image: url("../media/background-third.jpg");
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 6;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.third-client-foto {
+  background-image: url("../media/client-third.png");
+  height: 300px;
+  width: 400px;
+  background-size: cover;
+  background-position: center;
+  z-index: 7;
+  position: absolute;
+}
