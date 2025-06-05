@@ -1,10 +1,13 @@
 body {
   margin: 0;
+  display:flex;
+  justify-content: center;
+   flex-direction: column;
 }
 header {
   background-color: coral;
   height: 60px;
-  width: 100%;
+  width: 1415px;
   position: fixed;
   z-index: 14;
   display: flex;
@@ -20,6 +23,7 @@ header {
 .first-card {
   background-image: url(../media/background-first.png);
   height: 405px;
+  width: 1415px;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -28,6 +32,11 @@ header {
   background-attachment: fixed;
   background-position: +0px -250px;
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: start;
+  align-items:start;
+
+
 }
 .first-client-foto {
   background-image: url("../media/client-first.png");
@@ -36,23 +45,31 @@ header {
   background-size: cover;
   position: relative;
   z-index: 3;
+  display: flex;
+  justify-content: start;
+  align-items:end;
+  flex-direction: column;
 }
 p {
   text-align: right;
   color: azure;
   margin-right: 10px;
-  margin-top: 0px;
   justify-content: center;
   align-items: center;
 }
 .second-card {
   background-image: url("../media/background-second.jpg");
   height: 405px;
+  width: 1415px;
+  background-size: cover;
   background-position: center;
   position: relative;
   z-index: 4;
   background-attachment: fixed;
   background-repeat: no-repeat;
+   display: flex;
+  justify-content:center;
+  align-items:start;
 }
 .second-client-foto {
   background-image: url("../media/client-second.png");
@@ -62,17 +79,25 @@ p {
   background-position: center;
   z-index: 5;
   position: relative;
-  left: 475px;
+  display: flex;
+  justify-content: start;
+  align-items:end;
+  flex-direction: column;
+
 }
 .third-card {
   background-image: url("../media/background-third.jpg");
   height: 405px;
+  width: 1415px;
   background-size: cover;
   background-position: center;
   position: relative;
   z-index: 6;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: end;
+  align-items:start;
 }
 .third-client-foto {
   background-image: url("../media/client-third.png");
@@ -82,5 +107,8 @@ p {
   background-position: center;
   z-index: 7;
   position: relative;
-  left: 950px;
+  display: flex;
+  justify-content: start;
+  align-items:end;
+  flex-direction: column;
 }
